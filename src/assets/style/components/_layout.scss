@@ -1,0 +1,28 @@
+.root{
+    display: flex;
+    padding: 20px 32px;
+    &__menu{
+        max-width: 220px;
+        min-width: 220px;
+    }
+    &__main{
+        display: flex;
+        flex-direction: column;
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+    &__link{
+        display: flex;
+        align-items: center;
+        gap: 13px;
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        padding-bottom: 60px;
+    }
+}
